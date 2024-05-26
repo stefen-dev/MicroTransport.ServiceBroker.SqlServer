@@ -1,0 +1,10 @@
+<Project>
+
+  <PropertyGroup>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+  <Target Name="AfterBuildTarget" AfterTargets="Build">
+  </Target>
+
+</Project>

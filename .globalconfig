@@ -1,0 +1,14 @@
+# Top level entry required to mark this as a global AnalyzerConfig file
+is_global = true
+
+# NOTE: No section headers for configuration entries
+
+#### .NET Coding Conventions ####
+
+dotnet_analyzer_diagnostic.severity = none
+dotnet_style_qualification_for_method = true:warning
+
+#### Diagnostic configuration ####
+
+# Workaround for https://github.com/dotnet/roslyn/issues/41640
+dotnet_diagnostic.EnableGenerateDocumentationFile.severity = none
